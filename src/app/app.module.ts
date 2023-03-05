@@ -6,21 +6,21 @@ import { AppComponent } from './app.component';
 
 import { QrCodeModule } from 'ng-qrcode';
 import { QrcodeComponent } from './qrcode/qrcode.component';
-import { MenupartComponent } from './menupart/menupart.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import { ItemcategoryComponent } from './itemcategory/itemcategory.component';
 import { ItemsComponent } from './items/items.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     QrcodeComponent,
-    MenupartComponent,
     ItemcategoryComponent,
-    ItemsComponent
+    ItemsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
