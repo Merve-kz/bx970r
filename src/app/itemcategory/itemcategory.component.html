@@ -1,3 +1,4 @@
+<!-- Items without image -->
 <div class="row">
   <div class="col-sm-1 mb-3 mx-auto">
       <div class="card">
@@ -10,15 +11,19 @@
   </div>
 
 
-  <div class="col-sm-1 mb-3 mx-auto">
+  <!--
+     <div *ngFor="let card of cards" class="col-sm-4 mb-4 mx-auto">
     <div class="card">
-        <img class="card-img-top" src="https://via.placeholder.com/150" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card 1</h5>
-          <p class="card-text"></p>
-        </div>
+      <img class="card-img-top" [src]="card.imageUrl" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{ card.title }}</h5>
+        <p class="card-text">{{ card.text }}</p>
+      </div>
     </div>
   </div>
+  -->
+ 
+
 
 
   <div class="col-sm-1 mb-3 mx-auto">
